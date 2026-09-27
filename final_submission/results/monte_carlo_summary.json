@@ -1,0 +1,78 @@
+{
+  "experiment": "stage1_seed_sweep",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "runs": [
+    {
+      "seed": 0,
+      "tasks": 10,
+      "completed": 0,
+      "completion_rate": 0.0
+    },
+    {
+      "seed": 1,
+      "tasks": 10,
+      "completed": 1,
+      "completion_rate": 0.1
+    },
+    {
+      "seed": 2,
+      "tasks": 10,
+      "completed": 1,
+      "completion_rate": 0.1
+    },
+    {
+      "seed": 3,
+      "tasks": 10,
+      "completed": 0,
+      "completion_rate": 0.0
+    },
+    {
+      "seed": 4,
+      "tasks": 10,
+      "completed": 0,
+      "completion_rate": 0.0
+    },
+    {
+      "seed": 5,
+      "tasks": 10,
+      "completed": 1,
+      "completion_rate": 0.1
+    },
+    {
+      "seed": 6,
+      "tasks": 10,
+      "completed": 2,
+      "completion_rate": 0.2
+    },
+    {
+      "seed": 7,
+      "tasks": 10,
+      "completed": 0,
+      "completion_rate": 0.0
+    },
+    {
+      "seed": 8,
+      "tasks": 10,
+      "completed": 1,
+      "completion_rate": 0.1
+    },
+    {
+      "seed": 9,
+      "tasks": 10,
+      "completed": 0,
+      "completion_rate": 0.0
+    }
+  ],
+  "mean_completion_rate": 0.06000000000000001
+}

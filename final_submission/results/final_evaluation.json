@@ -1,0 +1,44 @@
+{
+  "configuration": {
+    "environment_m": [
+      1000.0,
+      1000.0
+    ],
+    "uav_count": 10,
+    "communication_range_m": 100.0,
+    "endurance_s": 1200.0,
+    "mission_duration_s": 2700.0,
+    "minimum_separation_m": 20.0,
+    "maximum_speed_mps": 5.0,
+    "maximum_altitude_m": 100.0,
+    "poi_count": 10,
+    "reporting_deadline_s": 10.0
+  },
+  "simulation": {
+    "simulated_time_s": 2700.0,
+    "status": "COMPLETED"
+  },
+  "mission": {
+    "tasks": 10,
+    "completed": 0,
+    "expired": 1,
+    "pending_or_active": 9,
+    "completion_rate": 0.0
+  },
+  "swarm": {
+    "role_changes": 11,
+    "relay_reallocations": 0,
+    "recoveries": 0,
+    "rth_events": 10
+  },
+  "safety": {
+    "final_pairwise_minimum_separation_m": 25.0,
+    "required_minimum_separation_m": 20.0,
+    "maximum_final_speed_mps": 0.0,
+    "speed_limit_mps": 5.0
+  },
+  "network": {
+    "nodes": 11,
+    "edges": 28
+  }
+}

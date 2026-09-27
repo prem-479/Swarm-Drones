@@ -1,0 +1,45 @@
+simulation:
+  seed: 42
+  timestep_s: 1.0
+  mission_duration_s: 2700.0
+
+environment:
+  width_m: 1000.0
+  height_m: 1000.0
+  max_altitude_m: 100.0
+
+uav:
+  count: 10
+  max_speed_mps: 5.0
+  max_acceleration_mps2: 1.0
+  endurance_s: 1200.0
+  min_separation_m: 20.0
+
+communication:
+  max_range_m: 100.0
+  model: distance_probabilistic
+  packet_delivery_probability: 1.0
+  latency_ms: 50.0
+
+mission:
+  poi_reporting_deadline_s: 10.0
+
+energy:
+  rth_threshold: 0.20
+  reserve_fraction: 0.15
+
+safety:
+  enforce_geofence: true
+  enforce_min_separation: true
+
+allocation:
+  method: communication_aware
+  reevaluation_interval_s: 5.0
+
+relay:
+  enabled: true
+  redundancy: true
+
+scenario:
+  poi_count: 10
+  poi_dynamic: true

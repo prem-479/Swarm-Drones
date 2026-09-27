@@ -1,0 +1,38 @@
+{
+  "reporting": {
+    "status": "ON_TIME",
+    "pdr": 1.0,
+    "latency_ms": 50.0
+  },
+  "fault_detection": {
+    "packet_loss": "PACKET_LOSS",
+    "uav_failure": "UAV_FAILURE",
+    "failure_confirmed": true
+  },
+  "recovery": {
+    "failed_uav": 3,
+    "replacement_uav": 8,
+    "reason": "lowest-id healthy reserve selected"
+  },
+  "energy": {
+    "remaining_time_s": 200.0,
+    "rth_required": true
+  },
+  "handover": {
+    "old_relay": 2,
+    "new_relay": 5,
+    "phases": [
+      "PRE_HANDOVER",
+      "RESERVE_DISPATCH",
+      "RESERVE_APPROACH",
+      "COMMUNICATION_OVERLAP",
+      "ROLE_TRANSFER",
+      "OLD_RELAY_RTH"
+    ]
+  },
+  "priority_insertion": {
+    "selected_uav": 4,
+    "priority": 5.0,
+    "urgency": 1.0
+  }
+}

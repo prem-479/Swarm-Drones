@@ -1,0 +1,30 @@
+UAV-X FINAL SUBMISSION
+======================
+
+Build time:
+2026-09-27T23:56:58+05:30
+
+Git branch:
+master
+
+Git commit:
+dfb52975b3011206738c811d7ad0d4115b137521
+
+Python:
+Python 3.13.13
+
+NumPy:
+2.5.3
+
+SciPy:
+1.18.1
+
+NetworkX:
+3.7
+
+Pygame:
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.13.13)
+2.5.8
+
+Video:
+results/uavx_stage1_final_demo.mp4

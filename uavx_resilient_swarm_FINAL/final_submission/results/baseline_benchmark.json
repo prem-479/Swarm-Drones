@@ -1,0 +1,35 @@
+{
+  "benchmark": "relay_geometry",
+  "rows": [
+    {
+      "target_distance_m": 50,
+      "reactive_relay_count": 0,
+      "predictive_required_relays": 0
+    },
+    {
+      "target_distance_m": 100,
+      "reactive_relay_count": 0,
+      "predictive_required_relays": 1
+    },
+    {
+      "target_distance_m": 250,
+      "reactive_relay_count": 0,
+      "predictive_required_relays": 2
+    },
+    {
+      "target_distance_m": 500,
+      "reactive_relay_count": 0,
+      "predictive_required_relays": 5
+    },
+    {
+      "target_distance_m": 750,
+      "reactive_relay_count": 0,
+      "predictive_required_relays": 8
+    },
+    {
+      "target_distance_m": 950,
+      "reactive_relay_count": 0,
+      "predictive_required_relays": 10
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "mission_completion_rate": 0.0,
+  "mean_completion_latency_s": 0.0,
+  "communication_pdr": 0.0,
+  "communication_latency_ms": 0.0,
+  "connectivity_downtime_s": 0.0,
+  "relay_reallocations": 0,
+  "role_changes": 19,
+  "failures_detected": 0,
+  "recoveries": 0,
+  "task_reassignments": 0,
+  "minimum_separation_m": 0.0,
+  "maximum_speed_mps": 0.0,
+  "rth_events": 0
+}
